@@ -22,3 +22,24 @@ public class Stringanswer : Quiz
     }
 
 }
+class YearQuestion : Quiz
+{
+    public int year {get; set;}
+}
+
+class MultipleChoises : Questions
+{
+    List<MultipleChoises> Choices = new List<MultipleChoises>();
+    public string choice;
+    //add funktion
+    //ta bort funktion
+}
+class NumericQuestion : Questions
+{
+    //minValue
+    //MaxValue
+}
+class TrueOrFalseQuestion : Questions
+{
+    public bool IsTrue {get; set;}
+}
