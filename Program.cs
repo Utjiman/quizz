@@ -1,10 +1,19 @@
-﻿namespace Quizzen;
-
-class Program
+﻿namespace quizzen
 {
-    static void Main(string[] args)
+
+    class Program
     {
-        Console.WriteLine("Hello, World!");
-        System.Console.WriteLine("");
+        static void Main(string[] args)
+        {
+            //Quiz m1 = new Quiz("What is the capital of United Kingdom?");
+
+            Stringanswer m2 = new Stringanswer("London", "State the capital of United Kingdom");
+
+            // Stringanswer m11 = new Stringanswer
+
+
+
+            Console.WriteLine(m2.Thequerytext + " " + m2.correct);
+        }
     }
 }
