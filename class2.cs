@@ -12,4 +12,8 @@ public class YearQuestion : Quiz
 class TrueOrFalseQuestion : Quiz
 {
     public bool IsTrue {get; set;}
+    public override void CreateQuestion()
+    {
+        Thequerytext = Console.ReadLine();
+    }
 }

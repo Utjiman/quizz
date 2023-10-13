@@ -36,4 +36,8 @@ public class Quiz
             Console.WriteLine("Incorrect answer");
         }
     }
+    public virtual void CreateQuestion()
+    {
+        Thequerytext = Console.ReadLine();
+    }
 }
