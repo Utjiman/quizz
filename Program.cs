@@ -6,7 +6,7 @@
 
     class Program
     {
-
+        
         static public List<Quiz> myquiz = new List<Quiz>();
         static public void queryfill()
         {
@@ -16,6 +16,8 @@
              myquiz.Add(m3);
              ThreeChoises m4 = new ThreeChoises("2","IFK Gothenburg played against Sirius, who won? (1: IFK, X: equal, 2 Sirius)");
              myquiz.Add(m4);
+            TrueOrFalseQuestion hej = new TrueOrFalseQuestion();
+            hej.CreateQuestion(myquiz);
              
         }
 

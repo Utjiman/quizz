@@ -36,7 +36,7 @@ public class Quiz
             Console.WriteLine("Incorrect answer");
         }
     }
-    public virtual void CreateQuestion()
+    public virtual void CreateQuestion(List<Quiz> truequiz)
     {
         Thequerytext = Console.ReadLine();
     }
